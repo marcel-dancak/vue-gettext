@@ -1,0 +1,12 @@
+<translate-block
+  tag="p"
+  text="/{1} Verification code / was sent on your email address /{2} (%{ emailAddress })/."
+  :params="{emailAddress}"
+>
+  <template v-slot:1="{ text }">
+    <strong class="primary" v-text="text"/>
+  </template>
+  <template v-slot:2="{ text }">
+    <a :href="`mailto:${emailAddress}`" v-text="text"/>
+  </template>
+</translate-block>

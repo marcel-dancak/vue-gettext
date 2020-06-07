@@ -1,0 +1,93 @@
+.f-row {
+  display: flex;
+  flex-direction: row;
+}
+.f-col {
+  display: flex;
+  flex-direction: column;
+}
+.f-grow {
+  flex-grow: 1;
+}
+.f-align-start {
+  align-items: flex-start;
+}
+.f-align-end {
+  align-items: flex-end;
+}
+.f-align-center {
+  align-items: center;
+}
+.f-justify-start {
+  justify-content: flex-start;
+}
+.f-justify-end {
+  justify-content: flex-end;
+}
+.f-justify-center {
+  justify-content: center;
+}
+.f-space-between {
+  justify-content: space-between;
+}
+.text-center {
+  text-align: center;
+}
+
+.px-2 {
+  padding-right: 8px!important;
+  padding-left: 8px!important;
+}
+.py-2 {
+  padding-top: 8px!important;
+  padding-bottom: 8px!important;
+}
+.mx-2 {
+  margin-right: 8px!important;
+  margin-left: 8px!important;
+}
+.my-2 {
+  margin-top: 8px!important;
+  margin-bottom: 8px!important;
+}
+.mr-2 {
+  margin-right: 8px!important;
+}
+.ml-2 {
+  margin-left: 8px!important;
+}
+.mb-2 {
+  margin-bottom: 8px!important;
+}
+.mt-2 {
+  margin-top: 8px!important;
+}
+
+.px-4 {
+  padding-right: 16px!important;
+  padding-left: 16px!important;
+}
+.py-4 {
+  padding-top: 16px!important;
+  padding-bottom: 16px!important;
+}
+.mx-4 {
+  margin-right: 16px!important;
+  margin-left: 16px!important;
+}
+.my-4 {
+  margin-top: 16px!important;
+  margin-bottom: 16px!important;
+}
+.mr-4 {
+  margin-right: 16px!important;
+}
+.ml-4 {
+  margin-left: 16px!important;
+}
+.mt-4 {
+  margin-top: 16px!important;
+}
+.mb-4 {
+  margin-bottom: 16px!important;
+}
