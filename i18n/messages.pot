@@ -13,14 +13,14 @@ msgstr[0] ""
 msgstr[1] ""
 
 #: src/App.vue:87
-#: src/assets/snippets/computed.vue:21
+#: src/assets/snippets/translate-js.vue:22
 msgid "%{ n } message"
 msgid_plural "%{ n } messages"
 msgstr[0] ""
 msgstr[1] ""
 
 #: src/App.vue:85
-#: src/assets/snippets/computed.vue:19
+#: src/assets/snippets/translate-js.vue:20
 msgid "Message"
 msgstr ""
 
@@ -29,7 +29,7 @@ msgid "Print"
 msgstr ""
 
 #: src/App.vue:92
-#: src/assets/snippets/computed.vue:26
+#: src/assets/snippets/translate-js.vue:27
 msgctxt "notice"
 msgid "%{ n } car"
 msgid_plural "%{ n } cars"
@@ -42,7 +42,7 @@ msgid "Print"
 msgstr ""
 
 #: src/App.vue:90
-#: src/assets/snippets/computed.vue:24
+#: src/assets/snippets/translate-js.vue:25
 msgctxt "verb"
 msgid "Test"
 msgstr ""

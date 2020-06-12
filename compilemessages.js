@@ -4,8 +4,8 @@ const fs = require('fs')
 const path = require('path')
 const compile = require('./gettext-compile.js')
 
-const srcDir = 'lang'
-const destDir = 'src/assets/lang'
+const srcDir = 'i18n'
+const destDir = 'src/assets/i18n'
 
 fs.readdirSync(srcDir)
   .filter(p => path.extname(p) === '.po')

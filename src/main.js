@@ -3,7 +3,7 @@ import 'highlight.js/styles/default.css'
 
 import App from './App.vue'
 import GettextPlugin from './gettext/plugin'
-import sk_SK from '@/assets/lang/sk_SK.json'
+import sk_SK from '@/assets/i18n/sk_SK.json'
 
 Vue.config.productionTip = false
 
@@ -20,9 +20,9 @@ Vue.use(GettextPlugin, {
   // loadMessages (code) {
   //   return import(
   //     /* webpackInclude: /\.json$/ */
-  //     /* webpackChunkName: "lang-[request]" */
+  //     /* webpackChunkName: "i18n-[request]" */
   //     /* webpackMode: "lazy-once" */
-  //     `@/assets/lang/${code}.json`
+  //     `@/assets/i18n/${code}.json`
   //   ).then(m => m.default)
   // }
 })
